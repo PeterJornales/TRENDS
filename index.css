@@ -295,6 +295,12 @@
   height: 38px;
   font-weight: 500;
 }
+.amount-parent {
+  width: 128px;
+  flex-direction: column;
+  gap: var(--gap-15xl-8);
+  color: var(--color-tomato);
+}
 .amount-parent,
 .container,
 .frame-parent {
@@ -302,13 +308,6 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.amount-parent {
-  width: 128px;
-  flex-direction: column;
-  gap: var(--gap-15xl-8);
-  color: var(--color-tomato);
-}
-.container,
 .frame-parent {
   flex-direction: row;
   gap: 55px;
@@ -323,7 +322,7 @@
   flex-direction: column;
   padding: var(--padding-25xl) 55px 625px 63px;
   box-sizing: border-box;
-  gap: 43px;
+  gap: var(--gap-24xl);
   max-width: 100%;
   z-index: 1;
   text-align: left;
@@ -419,13 +418,13 @@
 }
 .payment-wrapper {
   justify-content: flex-end;
-  padding: 0 var(--padding-xl) 0 26px;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
 }
 .hover {
   height: 24px;
   width: 4px;
   position: relative;
-  background-color: var(--color-darkslateblue-100);
+  background-color: var(--color-darkslateblue-200);
   transform: rotate(180deg);
   z-index: 1;
 }
@@ -591,7 +590,7 @@
   width: 100%;
   height: 1117px;
   position: relative;
-  background-color: var(--color-darkslateblue-100);
+  background-color: var(--color-darkslateblue-200);
   overflow: hidden;
   line-height: normal;
   letter-spacing: normal;
